@@ -1,67 +1,67 @@
-// const goku =async() => {
-// fetch('https://dummyjson.com/products')
-// .then(async (e) => {
-//     let response = await e.json()
-//     let products = response.products;
-//     console.log(products);
+const goku =async() => {
+fetch('https://dummyjson.com/products')
+.then(async (e) => {
+    let response = await e.json()
+    let products = response.products;
+    console.log(products);
     
-// })
-// .catch((error) => {
-//     console.log(error);
-// }
-// )
-// }
+})
+.catch((error) => {
+    console.log(error);
+}
+)
+}
 
 
-// goku();
+goku();
 
 
 
-// const vegeta = async () => {
-//     fetch('https://dummyjson.com/products')
-//     .then(async (e) => {
-//         let response = await e.json();
-//         let products = response.products;
-//         console.log(products)
-//     }   
-//     )
-//     .catch(
-//         (error) => {
-//            console.log(error)
-//         }
-//     )
-// }
+const vegeta = async () => {
+    fetch('https://dummyjson.com/products')
+    .then(async (e) => {
+        let response = await e.json();
+        let products = response.products;
+        console.log(products)
+    }   
+    )
+    .catch(
+        (error) => {
+           console.log(error)
+        }
+    )
+}
 
-// vegeta();
+vegeta();
 
-// const shop = async () => {
-//     fetch("https://dummyjson.com/products")
-//     .then(async (e) => {
-//         let response = await e.json();
-//         let products = response.products;
-//         console.log(products)
-//     })
-//     .catch((error) => {
-//         console.log(error)
-//     })
+const shop = async () => {
+    fetch("https://dummyjson.com/products")
+    .then(async (e) => {
+        let response = await e.json();
+        let products = response.products;
+        console.log(products)
+    })
+    .catch((error) => {
+        console.log(error)
+    })
     
-// }
+}
 
-// shop();
+shop();
 
-// const top = async() => {
-//     fetch("https://dummyjson.com/products")
-//     .then(async (e) => {
-//         let response = await e.json();
-//         let products = response.products;
-//         console.log(products)
-//     })
-//     .catch((error) => {
-//         console.log(error);
-//     })
-// }
+const top = async() => {
+    fetch("https://dummyjson.com/products")
+    .then(async (e) => {
+        let response = await e.json();
+        let products = response.products;
+        console.log(products)
+    })
+    .catch((error) => {
+        console.log(error);
+    })
+}
 
-// top();
+top();
 
 const rgshop = async () => {
     fetch("https://dummyjson.com/products")
