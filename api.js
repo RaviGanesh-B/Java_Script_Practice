@@ -1,4 +1,4 @@
-const goku = async() => {
+const gok = async() => {
     fetch("https://dummyjson.com/products")
     .then(async (e) => {
         let response = await e.json()
@@ -10,5 +10,5 @@ const goku = async() => {
     })
 };
 
-goku();
+gok();
 
